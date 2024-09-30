@@ -1,0 +1,49 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #2F4F4F; /* Verde escuro suave */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #2E8B57; /* Verde vibrante */
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px 20px;
+    border: 2px solid #4682B4; /* Borda azul */
+    border-radius: 5px;
+    background-color: #4682B4; /* Azul médio */
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #A9DFBF; /* Verde claro ao passar o mouse */
+    border-color: #2E8B57; /* Verde vibrante na borda */
+}
+
+.link-container {
+    margin-top: 30px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+}

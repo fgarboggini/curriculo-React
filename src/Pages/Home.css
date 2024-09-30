@@ -1,0 +1,54 @@
+/* Definições globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Azul claro */
+    color: #2F4F4F; /* Verde escuro suave para o texto */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #2E8B57; /* Verde vibrante */
+    margin-top: 20px;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+/* Links estilizados */
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #4682B4; /* Borda azul */
+    border-radius: 5px;
+    background-color: #4682B4; /* Azul médio */
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Efeito suave de transição */
+}
+
+a:hover {
+    background-color: #2E8B57; /* Verde vibrante ao passar o mouse */
+    border-color: #2E8B57;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    img {
+        max-width: 100%;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 8px 15px;
+    }
+}
